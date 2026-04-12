@@ -1,6 +1,6 @@
 /*
  * This file is part of the Buildings and Habitats object Model (BHoM)
- * Copyright (c) 2015 - 2026, the respective contributors. All rights reserved.
+ * Copyright (c) 2015 - 2025, the respective contributors. All rights reserved.
  *
  * Each contributor holds copyright over their respective contributions.
  * The project versioning (Git) records all such contribution source information.
@@ -28,17 +28,13 @@ using System.Threading.Tasks;
 
 namespace BH.oM.Adapters.File
 {
-    public enum FileFormat
+    public enum DateFormatOptions
     {
-        JSON,
-        BSON,
-        XML,
-        TXT,
-        CSV,
-        byteArray
+        ISO8601, // e.g., 2023-10-05T14:48:00Z
+        US,      // e.g., 10/05/2023
+        EU       // e.g., 05/10/2023
     }
 }
-
 
 
 

@@ -62,7 +62,7 @@ namespace BH.Engine.Adapters.File
         /***************************************************/
 
 
-        private static Encoding FromEnum(Encodings encodingEnumValue)
+        public static Encoding FromEnum(Encodings encodingEnumValue)
         {
             switch (encodingEnumValue)
             {
